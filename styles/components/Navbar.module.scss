@@ -1,0 +1,17 @@
+@import "../colors.scss";
+
+.nav {
+    display: flex;
+}
+
+.link {
+    padding: 7px;
+    text-decoration: none;
+    color: $white;
+
+    &:hover {
+        border-radius: 10%;
+        background-color: $dark;
+        color: $white;
+    }
+}

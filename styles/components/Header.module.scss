@@ -1,0 +1,8 @@
+@import "../colors.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary;
+    padding: 20px;
+}

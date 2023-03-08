@@ -1,0 +1,29 @@
+@import "../colors.scss";
+
+.imageWrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    width: fit-content;
+    background-color: $lite;
+    padding: 6px 16px;
+    border-radius: 10px;
+    border: solid 1px $dark;
+    color: $dark;
+}
+
+.input {
+    margin-top: 20px;
+    width: 200px;
+    padding: 6px 16px;
+    background-color: $lite;
+    border-radius: 10px;
+    border: solid 1px $dark;
+    color: $dark;
+    outline: unset;
+}
