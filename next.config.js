@@ -12,6 +12,10 @@ const nextConfig = {
         ];
     },
 
+    compiler: {
+        removeConsole: true,
+    },
+
     images: {
         formats: ["image/avif", "image/webp"],
         remotePatterns: [

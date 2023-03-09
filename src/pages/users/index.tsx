@@ -6,6 +6,7 @@ interface IUsers {
 }
 
 export default function Users({ users }: IUsers) {
+    console.log("test compiler remove console");
     return (
         <>
             <h1>Users</h1>

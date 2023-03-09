@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes, FC } from "react";
 import cn from "classnames";
 
-import styles from "@styles/components/Button.module.scss";
+import styles from "../styles/components/Button.module.scss";
 
 interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {}
 
