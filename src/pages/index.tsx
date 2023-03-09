@@ -4,7 +4,7 @@ import Image from "next/image";
 import { getAllPhoto, Photo } from "@services/photo";
 import { Button } from "@components/Button";
 
-import styles from "../styles/pages/Home.module.scss";
+import styles from "@styles/pages/Home.module.scss";
 
 const PACK_COUNT = 12;
 

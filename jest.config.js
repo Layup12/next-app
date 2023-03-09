@@ -9,10 +9,10 @@ const customJestConfig = {
     setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
     testEnvironment: "jest-environment-jsdom",
     moduleNameMapper: {
-        "^@components/(.*$)": "<rootDir>/components/$1",
-        "^@pages/(.*$)": "<rootDir>/pages/$1",
-        "^@services/(.*$)": "<rootDir>/services/$1",
-        "^@mock/(.*$)": "<rootDir>/mock/$1",
+        "^@components/(.*$)": "<rootDir>/src/components/$1",
+        "^@pages/(.*$)": "<rootDir>/src/pages/$1",
+        "^@services/(.*$)": "<rootDir>/src/services/$1",
+        "^@mock/(.*$)": "<rootDir>/src/mock/$1",
     },
 };
 

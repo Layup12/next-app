@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Users from "@pages/users";
-import { usersMock } from "../../../mock/users";
+import { usersMock } from "@mock/users";
 
 describe("Users", () => {
     it("snapshot with users mock data", () => {
