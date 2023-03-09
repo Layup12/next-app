@@ -5,9 +5,9 @@ exports[`Users snapshot with users mock data 1`] = `
   <h1>
     Users
   </h1>
-  <h4>
+  <h3>
     User list
-  </h4>
+  </h3>
   <ul
     data-testid="user-list"
   >

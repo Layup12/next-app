@@ -9,7 +9,7 @@ export default function Users({ users }: IUsers) {
     return (
         <>
             <h1>Users</h1>
-            <h4>User list</h4>
+            <h3>User list</h3>
             {Boolean(users.length) && (
                 <ul data-testid="user-list">
                     {users.map(({ name, id }) => (
