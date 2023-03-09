@@ -1,4 +1,4 @@
-import { getAllPosts, Post } from "@/services/posts";
+import { getAllPosts, Post } from "@services/posts";
 import Link from "next/link";
 
 interface IPosts {

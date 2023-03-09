@@ -1,4 +1,4 @@
-import { getAllUsers, User } from "@/services/users";
+import { getAllUsers, User } from "@services/users";
 import Link from "next/link";
 
 interface IUsers {
@@ -10,13 +10,15 @@ export default function Users({ users }: IUsers) {
         <>
             <h1>Users</h1>
             <h4>User list</h4>
-            <ul>
-                {users.map(({ name, id }) => (
-                    <li key={id}>
-                        <Link href={`/users/${id}`}>{name}</Link>
-                    </li>
-                ))}
-            </ul>
+            {Boolean(users.length) && (
+                <ul data-testid="user-list">
+                    {users.map(({ name, id }) => (
+                        <li key={id}>
+                            <Link href={`/users/${id}`}>{name}</Link>
+                        </li>
+                    ))}
+                </ul>
+            )}
         </>
     );
 }

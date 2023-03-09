@@ -1,0 +1,11 @@
+@import "../colors.scss";
+
+.root {
+    width: 200px;
+    padding: 6px 16px;
+    background-color: $lite;
+    border-radius: 10px;
+    border: solid 1px $dark;
+    color: $dark;
+    outline: unset;
+}

@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import { getTime } from "@/pages/api/services/time";
-import { getAssets } from "@/pages/api/services/assets";
+import { getTime } from "@pages/api/services/time";
+import { getAssets } from "@pages/api/services/assets";
 import { Assets } from "./api/assets";
 
 import styles from "../styles/pages/About.module.scss";

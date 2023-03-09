@@ -1,4 +1,4 @@
-import { getAllUsers, getUser, User } from "@/services/users";
+import { getAllUsers, getUser, User } from "@services/users";
 
 interface IUser {
     user: User;

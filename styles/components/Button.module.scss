@@ -1,0 +1,20 @@
+@import "../colors.scss";
+
+.root {
+    width: fit-content;
+    background-color: $lite;
+    padding: 6px 16px;
+    border-radius: 10px;
+    border: solid 1px $dark;
+    color: $dark;
+
+    &:hover:enabled {
+        cursor: pointer;
+        background-color: $primary;
+    }
+
+    &:disabled {
+        cursor: unset;
+        opacity: 0.5;
+    }
+}

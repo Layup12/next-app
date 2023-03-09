@@ -1,4 +1,4 @@
-import { getPost, Post } from "@/services/posts";
+import { getPost, Post } from "@services/posts";
 
 interface IPost {
     post: Post;

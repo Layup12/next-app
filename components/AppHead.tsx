@@ -2,7 +2,7 @@ import { FC } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-import { headConfig, HeadConfigEnum } from "@/config/head";
+import { headConfig, HeadConfigEnum } from "@config/head";
 
 export const AppHead: FC = () => {
     const { route } = useRouter();

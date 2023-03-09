@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users snapshot with users mock data 1`] = `
+<div>
+  <h1>
+    Users
+  </h1>
+  <h4>
+    User list
+  </h4>
+  <ul
+    data-testid="user-list"
+  >
+    <li>
+      <a
+        href="/users/1"
+      >
+        Leanne Graham
+      </a>
+    </li>
+    <li>
+      <a
+        href="/users/2"
+      >
+        Ervin Howell
+      </a>
+    </li>
+  </ul>
+</div>
+`;
