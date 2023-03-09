@@ -13,7 +13,7 @@ const nextConfig = {
     },
 
     compiler: {
-        removeConsole: true,
+        removeConsole: process.env.NODE_ENV === "production",
     },
 
     images: {
