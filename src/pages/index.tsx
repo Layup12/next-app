@@ -45,6 +45,7 @@ export default function Home() {
                 className={styles.button}
                 disabled={elementCount > photoList.length}
                 onClick={() => setElementCount((c) => c + PACK_COUNT)}
+                data-testid="show-more"
             >
                 Show More
             </Button>

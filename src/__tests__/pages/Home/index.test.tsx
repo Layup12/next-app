@@ -21,7 +21,7 @@ describe("Home", () => {
         mockedAxios.get.mockResolvedValue(response);
         const component = render(<Home />);
 
-        const btn = component.getByRole("button");
+        const btn = component.getByTestId("show-more");
         const imageWrapper = await component.findByTestId("image-wrapper");
 
         expect(imageWrapper).toBeInTheDocument();
@@ -33,7 +33,7 @@ describe("Home", () => {
         mockedAxios.get.mockRejectedValue(response);
         const component = render(<Home />);
 
-        const btn = component.getByRole("button");
+        const btn = component.getByTestId("show-more");
 
         expect(btn).toBeDisabled();
     });
@@ -43,7 +43,7 @@ describe("Home", () => {
         const component = render(<Home />);
 
         const imageWrapper = await component.findByTestId("image-wrapper");
-        const btn = component.getByRole("button");
+        const btn = component.getByTestId("show-more");
 
         expect(imageWrapper).toBeInTheDocument();
         expect(imageWrapper.childElementCount).toBe(12);
